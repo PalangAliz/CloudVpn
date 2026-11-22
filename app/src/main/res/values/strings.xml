@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">EdgeTunnel</string>
+
+    <!-- Navigation -->
+    <string name="nav_tunnel">Tunnel</string>
+    <string name="nav_apps">Per-App</string>
+    <string name="nav_config">Config</string>
+
+    <!-- Connection Status -->
+    <string name="status_disconnected">Disconnected</string>
+    <string name="status_connecting">Connecting</string>
+    <string name="status_connected">Connected</string>
+    <string name="status_error">Error</string>
+
+    <!-- Tunnel Screen -->
+    <string name="action_connect">Connect Tunnel</string>
+    <string name="action_disconnect">Disconnect</string>
+    <string name="label_worker_url">Worker URL</string>
+    <string name="hint_worker_url">https://your-worker.workers.dev</string>
+    <string name="label_uuid">UUID Token</string>
+    <string name="hint_uuid">63ae8279-fafa-4dd0-b2ef-9d6a4ec3ffdd</string>
+    <string name="label_clean_ip">Clean IP (Optional)</string>
+    <string name="hint_clean_ip">104.16.x.x or 104.16.x.x:443</string>
+    <string name="section_worker_endpoint">Worker Endpoint</string>
+    <string name="section_live_logs">Session Telemetry &amp; Logs</string>
+
+    <!-- Per-App Screen -->
+    <string name="mode_proxied_title">Selected Use Proxy</string>
+    <string name="mode_proxied_desc">Only selected apps route through the Worker; all others bypass directly.</string>
+    <string name="mode_bypass_title">Selected Bypass Proxy</string>
+    <string name="mode_bypass_desc">All apps route through the Worker except selected ones.</string>
+    <string name="hint_search_apps">Search by app or package name…</string>
+    <string name="action_select_visible">Select Visible</string>
+    <string name="action_clear_all">Clear All</string>
+
+    <!-- Config Screen -->
+    <string name="section_export_import">Backup &amp; Sharing</string>
+    <string name="section_engine_settings">Proxy &amp; Transport</string>
+    <string name="section_battery_background">Background Persistence</string>
+
+    <!-- Foreground Service Notification -->
+    <string name="vpn_notification_channel_name">EdgeTunnel Active Connection</string>
+    <string name="vpn_notification_channel_desc">Displays active VPN tunnel status and quick disconnect control</string>
+    <string name="vpn_notification_title_connected">EdgeTunnel Active</string>
+    <string name="vpn_notification_title_connecting">EdgeTunnel Connecting…</string>
+    <string name="vpn_notification_action_disconnect">Disconnect</string>
+</resources>

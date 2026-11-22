@@ -1,0 +1,6 @@
+{
+  "name": "EdgeTunnel",
+  "description": "Encrypted WebSocket chat.v2 VPN & Per-App Proxy client for Cloudflare Workers with Clean IP TLS/SNI dialing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
